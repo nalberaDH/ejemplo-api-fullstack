@@ -21,7 +21,6 @@ const apiInfo = async () => {
     });    
 }
 
-
 app.get('/users', async (req,res)=>{
     
     const name = req.query.name;
